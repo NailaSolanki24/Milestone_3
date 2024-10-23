@@ -1,0 +1,116 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 20px;
+  padding: 0;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  background: rgb(228,242,255);
+  padding: 20px;
+  margin:  auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+}
+
+fieldset {
+  margin-bottom: 15px;
+  padding: 20px;
+  border: 2px solid rgba(46, 214, 127, 0.753);
+  border-radius: 8px;
+  background-color: aliceblue;
+}
+
+legend {
+  font-weight: bold;
+  text-align: left;
+  color: rgb(34,29,29);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: black;
+}
+
+input,textarea {
+  width: calc(100% - 1px);
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid rgba(36, 209, 14, 0.872);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  background-color: rgba(67, 226, 91, 0.884);
+  width: 100%;
+  padding: 10px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgb(0,0,0,0,5);
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: blue;
+  
+}
+
+.profile-container {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#profile-preview {
+  max-width: 100px;
+  border-radius: 50%;
+  display: none;
+   margin-top: 10px ;
+}
+
+#resume-display {
+  background: #fff;
+  padding: 20px;
+  border: 2px solid skyblue;
+  margin:  auto;
+  border-radius: 8px;
+  background-color: rgba(135, 232, 130, 0.797);
+  box-shadow: 0 4px 8px rgb(0,0,0,0,5);
+  max-width: 600px;
+}
+
+#resume-display h2 {
+  
+  color: black;
+  text-align: center;
+  margin-top: 0;
+  
+  
+}
+
+#resume-display p {
+  margin: 5px 0;
+  font-size: 20px;
+  padding: 10px;
+  
+}
+
+#resume-display img{
+  display: block;
+  margin: 0 auto 10px;
+  width: 250px;
+  border-radius: 50%;
+}
